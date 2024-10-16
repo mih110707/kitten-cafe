@@ -1,0 +1,215 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    
+    background-repeat: no-repeat;
+    text-align: center;
+    background: linear-gradient(to right, black, black, rgba(0, 0, 0, 0.938), rgba(0, 0, 0, 0.801),transparent),
+             url(img/PrimeiroPlano.png);
+    height:600px;
+    color: aliceblue;
+    font-family: helvetica;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.titulo1{
+    text-align: center;
+    padding-left: 50px;
+
+
+}
+
+.Logo1{
+    padding-left: 440px;
+    padding-top: 40px ;
+    
+    height: 200px;
+    
+   
+
+}
+
+.b1{
+    text-align: center;
+    padding-right: 190px;
+    padding-top: 90px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 1vh;
+    color: black;
+    margin-bottom: 1vh;
+    border-color: rgb(0, 0, 0);
+    background-color: rgba(255, 68, 0, 0.438);
+    
+    
+    
+
+
+}
+
+.b2-1{
+    text-align:center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 1vh;
+    color: black;
+    margin-bottom: 1vh;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(63, 33, 33);
+    
+    
+
+
+}
+
+
+.Parte2{
+     background-color: whitesmoke;
+     height: 500px;
+     background:url(img/WhatsApp\ Image\ 2024-09-27\ at\ 1.30.19\ PM.jpeg), 
+                url(img/WhatsApp\ Image\ 2024-09-27\ at\ 1.30.20\ PM.jpeg),
+                url(img/WhatsApp\ Image\ 2024-09-27\ at\ 1.30.20\ PM\ \(1\).jpeg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center, right, left;
+     font-family: helvetica;
+     
+
+}
+
+.descricao2{
+
+
+}
+
+
+.titulo2{
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    background-color: aliceblue;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.texto2{
+    text-align: center;
+    color: black;
+    background-color: aliceblue;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.Parte3{
+    height: 200px;
+    background-color: darkorchid;
+    background: url(img/Vet.jpeg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 500px;
+    margin-right: 170px;
+    margin-left: 170px;
+
+
+}
+
+.titulo3{
+   text-align: left;
+   padding-left: 40px;
+   color: aliceblue;
+
+}
+
+
+
+.Parte5{
+    height: 400px;
+    background-color: white;
+
+
+}
+
+.titulo5{
+    text-align: center;
+    font-weight: 500;
+    font-size:xx-large;
+    display: flex;
+
+
+}
+
+.lista5{
+    display: flex;
+    list-style: none;
+    margin-left: 290px;
+
+
+}
+
+.tv5{
+
+
+}
+
+.computador5{
+
+
+}
+
+.celular5{
+
+
+}
+
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.rodape {
+    text-align: center;
+    background-color: gray;
+    height: 170px;
+    font-family: helvetica;
+    
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+
+.rodape__logo{
+     height: 80px;
+
+}
+
